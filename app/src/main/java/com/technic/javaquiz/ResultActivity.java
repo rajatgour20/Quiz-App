@@ -30,17 +30,17 @@ public class ResultActivity extends AppCompatActivity {
         bar.setRating(score);
         switch (score)
         {
-            case 0: t.setText("You scored 0%, keep learning");
+            case 0: t.setText("0 Correct and 5 incorrect answers");
                 break;
-            case 1: t.setText("You have 20%, study better");
+            case 1: t.setText("1 Correct and 4 incorrect answers");
                 break;
-            case 2: t.setText("You have 40%, keep learning");
+            case 2: t.setText("2 Correct and 3 incorrect answers");
                 break;
-            case 3: t.setText("You have 60%, good attempt");
+            case 3: t.setText("3 Correct and 2 incorrect answers");
                 break;
-            case 4:t.setText("You have 80% Hmmmm.. maybe you have been reading a lot of AndroidProgramming quiz");
+            case 4:t.setText("4Correct and 1 incorrect answers");
                 break;
-            case 5:t.setText(" Whao, you have 100%, Who are you? You are awesome.");
+            case 5:t.setText("5 Correct and 0 incorrect answers");
                 break;
         }
     }
